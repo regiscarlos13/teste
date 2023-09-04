@@ -10,9 +10,6 @@
 > Nesse teste, procurei usar metodos inteligentes com metaprogramação para serem versáteis e flexíveis, permitindo que realizem várias operações com base em argumentos ou contextos diferentes.
 O metodo solucao o mesmo é capaz de receber um array com varios hash e listar todos os campos e valores sem a necessidade de especificamos os campos passando simplemente o argumento, nesse caso os parametros estão por default no metodo truncar_e_preencher.
 
-# acrescentar um arquivo yml com as configurações e passar no metodo. Ex: solucao(args: [argumentos], file: arquivo.yaml)
-
-
 ### Ajustes e melhorias
 
 O Objetivo desse teste é para mostrar o conhecimento na linguagem ruby, porém os mesmo os metodos podem ser melhoras ou escrito de outra forma.
