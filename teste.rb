@@ -1,15 +1,6 @@
 # frozen_string_literal: true
 
 require 'yaml'
-
-# Nesse teste, procurei usar metodos inteligentes com metaprogramação para serem versáteis e flexíveis,
-# permitindo que realizem várias operações com base em argumentos ou contextos diferentes.
-# O metodo solucao o mesmo é capaz de receber um array com varios hash e listar todos
-# os campos e valores sem a necessidade de especificamos os campos passando simplemente o argumento,
-# nesse caso os parametros estão por default no metodo truncar_e_preencher.
-# Ex: solucao(args: [argumentos]), por outro lado caso tenha necessidade de formatar os campos poderá
-# acrescentar um arquivo yml com as configurações e passar no metodo. Ex: solucao(args: [argumentos], file: arquivo.yaml)
-
 class LoadFile
   attr_reader :formato1, :formato2
 
